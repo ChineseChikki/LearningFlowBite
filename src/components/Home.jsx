@@ -9,6 +9,7 @@ const Home = () => {
                 className=" container w-full h-full"
                 alt="WTM Logo"
       />
+      <h1>HELLO WORLD</h1>
     </div>
   )
 }
