@@ -6,10 +6,9 @@ const Home = () => {
     <div>
        <img
                 src={logo1}
-                className=" container w-full h-full"
+                className="flex flex-col gap-4 mt-[200px]"
                 alt="WTM Logo"
       />
-      <h1>HELLO WORLD</h1>
     </div>
   )
 }

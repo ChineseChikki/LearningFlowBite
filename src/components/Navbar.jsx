@@ -7,7 +7,7 @@ import git from "../assets/git avater.png"
   const NavbarFB = () => {
     return (
             <div>
-              <Navbar
+          <Navbar
             fluid={true}
             rounded={true}
             >
@@ -43,8 +43,14 @@ import git from "../assets/git avater.png"
              <Navbar.Link href="/login">
             LogIn
             </Navbar.Link>
+            <Navbar.Link href="/lang">
+            TranslateLang
+            </Navbar.Link>
+            <Navbar.Link href="/img">
+             GenImage
+            </Navbar.Link>
           </Navbar.Collapse>
-              </Navbar>
+         </Navbar>
             </div>
   )
 }
